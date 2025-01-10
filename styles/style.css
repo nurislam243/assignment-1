@@ -1,4 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* header styles start here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+nav h1{
+    margin-left: 160px;
+    font-weight: bold;
+    max-width: 222px;
+    max-height: 38px;
+    font-size: 32px;
+    color: #0E0E0E;
+}
+nav button{
+    border: 1px solid #006A50;
+    margin-right: 160px;
+    max-width: 116px;
+    max-height: 52px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: #006A50;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 15px;
+}
+.banner{
+    height: 560px;
+    background-color: #C6E4D6;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 100px 80px;
 }
