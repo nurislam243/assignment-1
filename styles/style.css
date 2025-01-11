@@ -189,6 +189,21 @@ nav button{
 #subcard-1{
     background-color:rgb(213,225,245);
 }
+#subcard-2{
+    background-color: rgb(198,228,214);
+}
+#subcard-3{
+    background-color: rgb(247,235,207);
+}
+#subcard-1:hover{
+    background-color: rgb(202,194,178);
+}
+#subcard-2:hover{
+    background-color: rgb(202,194,178);
+}
+#subcard-3:hover{
+    background-color: rgb(202,194,178);
+}
 
 .btn-2{
     max-width: 122px;
@@ -200,6 +215,30 @@ nav button{
     font-size: 14px;
     margin-top: 45px;
     border: none;
+}
+#vissionbtn-1{
+    background-color: rgb(84,144,245);
+}
+#vissionbtn-1:hover{
+    background-color: rgb(191, 206, 27);
+    color: black;
+    border: 1px solid #006A50;
+}
+#vissionbtn-2{
+    background-color: rgb(9,161,92);
+}
+#vissionbtn-2:hover{
+    background-color: rgb(191, 206, 27);
+    color: black;
+    border: 1px solid #006A50;
+}
+#vissionbtn-3{
+    background-color: rgb(9,161,92);
+}
+#vissionbtn-3:hover{
+    background-color: rgb(191, 206, 27);
+    color: black;
+    border: 1px solid #006A50;
 }
 
 .subsec-3{
