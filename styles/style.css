@@ -378,3 +378,27 @@ nav button{
     border-radius: 0px 9px 9px 0px;
     border: none;
 }
+
+/* footer styles */
+footer{
+    height: 226px;
+    padding: 50px 160px;
+    border: 1px solid rgb(240, 231, 231);
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-top: 80px;
+}
+footer h1{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #0E0E0E;
+}
+footer hr{
+    margin-top: 32px;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+footer a{
+    margin: 0px 12px;
+}
