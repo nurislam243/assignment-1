@@ -16,6 +16,11 @@
    color: #0E0E0E;
    margin-top: 32px; 
  }
+ .primary-h3{
+    font-weight: bold;
+    font-size: 32px;
+    color: rgb(62,62,62);
+ }
  .para-1{
     margin-top: 16px;
     line-height: 24px;
@@ -36,7 +41,25 @@
     font-size: 15px;
     border: none;
 }
-
+.hover-style:hover{
+    background-color:  rgb(236, 205, 190);
+    color: rgb(220, 15, 217);
+    font-style: italic;
+    cursor: pointer;
+}
+.hover-style-1:hover{
+    color: #e20909;
+    font-style: italic;
+    font-size: 15px;
+    cursor: pointer;
+}
+.donate-btn:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.amount-input:hover{
+    background-color: silver;
+}
 
 
 body{
@@ -138,6 +161,10 @@ nav button{
     border-radius: 16px;
     background-color: #FFFFFF;
 }
+.card:hover{
+    border: 1px solid red;
+    background-color: silver;
+}
 
 .section-2{
     margin-top: 110px;
@@ -159,6 +186,11 @@ nav button{
     padding: 32px;
     border-radius: 16px;
 }
+
+.card-1:hover{
+    background-color: transparent;
+    border: 1px solid tomato;
+}
 .btn-2{
     max-width: 122px;
     max-height: 41px;
@@ -170,6 +202,7 @@ nav button{
     margin-top: 45px;
     border: none;
 }
+
 .subsec-3{
     background-image: url('../images/quote-bg.png');
     height: 250px;
@@ -275,6 +308,7 @@ nav button{
     box-sizing: border-box;
     background-color: #FFFFFF;
     border: 1px solid #DBDBDB;
+    outline: none;
 
 }
 .donat-section input :hover{
@@ -295,4 +329,52 @@ nav button{
     font-weight: 600;
     font-size: 16px;
     margin-top: 32px;
+}
+
+/* subscribe section styles */
+.subscribe-section{
+    max-height: 395px;
+    padding: 80px 100px;
+    border-radius: 24px;
+    background-color: rgb(198,228,214);
+    margin-right: 160px;
+    margin-left: 160px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.subscribe-content{
+    text-align: center;
+    max-height: 235px;
+    max-width: 750px;
+}
+
+.subscribe{
+    height: 56px;
+    display: flex;
+    flex: 1;
+    margin-top: 24px;
+
+}
+.email{
+    padding: 18px 40px;
+    width: 600px;
+    height: 20px;
+    border-radius: 9px 0px 0px 9px;
+    border: none;
+    outline: none;
+}
+
+.submit{
+    width: 150px;
+    height: 56px;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 0px 9px 9px 0px;
+    border: none;
 }
