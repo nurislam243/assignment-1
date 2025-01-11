@@ -19,18 +19,29 @@
  .para-1{
     margin-top: 16px;
     line-height: 24px;
-    color: #0E0E0E;
+    color: rgb(62, 62, 62);
     font-size: 16px;
  }
  .card-icon{
     width: 62px;
     height: 62px;
  }
+ .read-more-btn{
+    background-color: rgb(0,106,80);
+    padding: 13px 26px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+}
 
 
 
 body{
     font-family: 'Fira Sans', sans-serif;
+    background-color: #F5F5F5;
 }
 
 /* header styles start here */
@@ -120,11 +131,12 @@ nav button{
     gap: 15px;
 }
 .card{
-    border: 1px solid rgb(218, 199, 172);
+    border: 1px solid rgb(219, 219, 219);
     width: 299px;
     height: 230px; 
     padding: 24px;
     border-radius: 16px;
+    background-color: #FFFFFF;
 }
 
 .section-2{
@@ -141,7 +153,7 @@ nav button{
     margin-top: 32px;
 }
 .card-1{
-    border: 1px solid rgb(218, 199, 172);
+    border: 1px solid rgb(227, 238, 233);
     width: 405px;
     height: 310px;
     padding: 32px;
@@ -168,5 +180,49 @@ nav button{
     margin-top: 32px;
     background-position-x: 24px;
     background-position-y: 32px;
+    background-color: #FFFFFF;
+}
+
+/* News Section Styles */
+.news-section{
+    height: 980px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 200px;
+}
+.news-head{
+    height: 120px;
+}
+.news{
+    height: 400px;
+    padding: 45px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    background-color: #FFFFFF;
+}
+#news-1{
+    margin-top: 32px;
+}
+#news-2{
+    margin-top: 24px;
+}
+
+.news-image{
+    margin-top: 20px;
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+.news-content{
+    margin-top: 32px;
+    width: 744px;
+    height: 290px;
+}
+.media-logo{
+    margin: 12px 0px;
 }
 
